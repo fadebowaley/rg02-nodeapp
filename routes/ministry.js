@@ -12,8 +12,6 @@ Youth Ministry
 */
 
 
-
-
 router.get("/csr", function (req, res, next) {
   res.render("ministry/csr", { title: "history" });
 });

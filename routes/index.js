@@ -27,19 +27,20 @@ router.get("/event", function (req, res, next) {
 
 
 router.get("/history", function (req, res, next) {
-  res.render("index", { title: "history" });
+  res.render("history", { title: "history" });
 });
 
-router.get("/quicklinks", function (req, res, next) {
-  res.render("index", { title: "quick links" });
-});
+// router.get("/quicklinks", function (req, res, next) {
+//   res.render("index", { title: "quick links" });
+// });
 
 router.get("/help-ministries", function (req, res, next) {
-  res.render("index", { title: "help ministries" });
+  res.render("help", { title: "help ministries" });
 });
 
-router.get("/contact-us", function (req, res, next) {
-  res.render("index", { title: "contact us" });
+
+router.get("/contact", function (req, res, next) {
+  res.render("contact", { title: "contact us" });
 });
 
 
