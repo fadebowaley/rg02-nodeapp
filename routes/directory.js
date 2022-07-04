@@ -1,0 +1,1 @@
+//  Query database for all the directory and populates the by categories
